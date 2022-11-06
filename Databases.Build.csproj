@@ -1,0 +1,9 @@
+﻿<Project Sdk="MSBuild.Sdk.SqlProj/2.1.0">
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <SqlServerVersion>Sql140</SqlServerVersion>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="master.dacpac" Version="1.0.6" DatabaseVariableLiteralValue="master" />
+    </ItemGroup>
+</Project>
