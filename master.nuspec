@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package >
   <metadata>
-    <id>master.dacpac</id>
-    <version>1.0.6</version>
+    <id>master</id>
+    <version>1.0.11</version>
     <authors>asb</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Specifies the schema of the master database on 140 compatability level</description>
     <copyright>Microsoft</copyright>
   </metadata>
   <files>
-    <file src="./tools/master.dacpac" target="tools/master.dacpac" />
+    <file src="./master.dacpac" target="./tools" />
   </files>
 </package>

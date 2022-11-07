@@ -4,6 +4,6 @@
         <SqlServerVersion>Sql140</SqlServerVersion>
     </PropertyGroup>
     <ItemGroup>
-        <PackageReference Include="master.dacpac" Version="1.0.6" DatabaseVariableLiteralValue="master" />
+        <PackageReference Include="master" Version="1.0.11" DatabaseVariableLiteralValue="master" />
     </ItemGroup>
 </Project>
